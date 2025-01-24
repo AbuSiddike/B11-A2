@@ -24,4 +24,11 @@
     font-size: 32px;
     font-weight: 700;
    }
+   /* empowerment */
+   .empowerment-child1{
+    width: 65%;
+}
+.empowerment-child2{
+    width: 35%;
+}
 }

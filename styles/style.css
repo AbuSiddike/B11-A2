@@ -7,11 +7,6 @@
     box-sizing: border-box;
 }
 
-/* main */
-main{
-    padding: 100px;
-}
-
 /* body */
 body{
     max-width: 1380px;
@@ -48,15 +43,13 @@ header button{
 /* Empowerment of Students from Small Age */
 .Empowerment{
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     gap: 50px;
-    padding: 0px;
 }
+
 .Empowerment img{
-    width: 468.61px;
-    height: 575px;
+    width: 100%;
 }
 span{
     color: rgb(254, 163, 1);
@@ -65,23 +58,14 @@ span{
     color: rgb(1, 172, 253);
 }
 .head{
-    font-size: 56px;
     font-weight: 700;
-    text-align: left;
 }
 .h-paragraph{
     color: rgb(17, 17, 17);
-    font-size: 20px;
     font-weight: 400;
-    text-align: left;
 }
 .h-button{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 10px;
+    padding: 10px 20px;
     margin: 24px 0px;
     border-radius: 12px;
     background: rgb(17, 17, 17);
