@@ -31,4 +31,15 @@
 .empowerment-child2{
     width: 35%;
 }
+
+/* standard curriculum */
+.standard-child{
+    flex-direction: row;
+}
+.std-button{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 80px;
+}
 }

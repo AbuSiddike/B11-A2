@@ -41,4 +41,11 @@
 .h-paragraph{
     font-size: 14px;
 }
+/* standard curriculum */
+.standard-child{
+    flex-direction: column;
+}
+.std-button{
+    display: none;
+}
 }
