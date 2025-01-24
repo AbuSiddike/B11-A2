@@ -1,0 +1,27 @@
+@media screen and (min-width: 577px) {
+    .navbar{
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 10px;
+    }
+   .navbar h3{
+    display: block;
+   }
+   .navbar .links, button{
+    display: block;
+   }
+   .hamburger{
+    display: none;
+   }
+   .logo img{
+    width: 46px;
+    height: 46px;
+   }
+   .logo{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 32px;
+    font-weight: 700;
+   }
+}

@@ -1,0 +1,136 @@
+/* font-style */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+*{
+    font-family: "Quicksand", serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* main */
+main{
+    padding: 100px;
+}
+
+/* body */
+body{
+    max-width: 1380px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+/* header */
+.navbar{
+    display: flex;
+}
+.links a{
+    text-decoration: none;
+}
+.links ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    gap: 27px;
+}
+
+header button{
+    background: rgb(254, 163, 1);
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    border-radius: 12px;
+    padding: 10px 20px;
+    border: none;
+}
+
+/* Empowerment of Students from Small Age */
+.Empowerment{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    padding: 0px;
+}
+.Empowerment img{
+    width: 468.61px;
+    height: 575px;
+}
+span{
+    color: rgb(254, 163, 1);
+}
+.span-2{
+    color: rgb(1, 172, 253);
+}
+.head{
+    font-size: 56px;
+    font-weight: 700;
+    text-align: left;
+}
+.h-paragraph{
+    color: rgb(17, 17, 17);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+.h-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    margin: 24px 0px;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* Standard Curriculum */
+.standard-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 80px;
+    padding: 60px 0px;
+    background-image: url('../assets/bg.png');
+}
+.standard-child{
+    display: flex;
+}
+.standard-subchild{
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    text-align: center;
+}
+
+/* footer section */
+footer{
+    background: rgb(1, 172, 253);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+.footer-child p{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+.footer-subchild{
+    display: flex;
+    align-items: center;
+}
+.footer-subchild h2{
+    font-size: 42.14px;
+    font-weight: 700;
+    text-align: left;
+}
