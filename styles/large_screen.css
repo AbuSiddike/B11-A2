@@ -31,7 +31,9 @@
 .empowerment-child2{
     width: 35%;
 }
-
+.Empowerment h1{
+    font-size: 35px;
+}
 /* standard curriculum */
 .standard-child{
     flex-direction: row;
@@ -41,5 +43,58 @@
     justify-content: center;
     gap: 10px;
     margin-top: 80px;
+}
+
+/* our stories */
+
+.stories-parent{
+    grid-template-columns: repeat(4, 1fr);
+}
+.stories-child1 h5{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.stories-child1 p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.stories-child1{
+    grid-column: span 2;
+    grid-row: span 2;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.stories-child2{
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.stories-child3{
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.stories-chlid4{
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.stories-child5{
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.stories-child6{
+    display: none;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+/* footer */
+footer{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-child p{
+    margin-top: 35px;
 }
 }

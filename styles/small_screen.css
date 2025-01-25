@@ -48,4 +48,20 @@
 .std-button{
     display: none;
 }
+
+/* our stories */
+.stories-parent{
+    grid-template-columns: repeat(2, 1fr);
+}
+.stories-child1{
+    display: none;
+}
+.stories-child6{
+    display: block;
+}
+
+/* footer */
+footer{
+    grid-template-columns: repeat(1, 1fr);
+}
 }

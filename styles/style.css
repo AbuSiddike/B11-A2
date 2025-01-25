@@ -76,7 +76,7 @@ span{
 
 /* Standard Curriculum */
 .standard-parent{
-    padding: 60px 0px;
+    padding: 50px 0px;
     text-align: center;
     background-image: url('../assets/bg.png');
 }
@@ -126,13 +126,93 @@ span{
     border-radius: 39px;
 }
 
+
+/* our stories */
+.our-stories{
+    background: url('../assets/bg.png'),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.our-stories h1{
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center;
+}
+.stories-parent{
+    display: grid;
+    gap: 10px;
+    margin-top: 80px;
+}
+.stories-parent img{
+    width: 100%;
+}
+
+.bot{
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.bot p{
+    padding: 10px;
+}
+.bot h6{
+    margin-top: 20px;
+}
+.child1-btn{
+    position: absolute;
+    left: 30px;
+    top: -20px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 8px 16px;
+    border-radius: 20px;
+}
+.green{
+    background: rgb(149, 178, 38);
+}
+
+.big{
+    position: relative;
+}
+.big1{
+    position: absolute;
+    left: 30px;
+    top: -20px;
+    background: rgb(60, 216, 232);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 8px 16px;
+    border-radius: 20px;
+}
+.visual-btn{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.visual-btn button{
+    padding: 15px 40px;
+    border-radius: 10px;
+    background: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    margin: 0px auto;
+    font-size: 20px;
+    font-weight: 700;
+}
+.stories-parent h6{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
 /* footer section */
 footer{
+    display: grid;
     background: rgb(1, 172, 253);
     color: rgb(255, 255, 255);
-    display: flex;
     justify-content: space-between;
-    padding: 100px;
+    padding: 40px 15px;
+    gap: 24px;
 }
 .footer-child p{
     font-size: 20px;
@@ -142,9 +222,27 @@ footer{
 .footer-subchild{
     display: flex;
     align-items: center;
+    gap: 8px;
 }
 .footer-subchild h2{
     font-size: 42.14px;
     font-weight: 700;
     text-align: left;
+}
+.footer-std a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+}
+.footer-std ul{
+    margin-top: 10px;
+}
+
+.footer-std .footer-stdio, h5{
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer-duty{
+    margin-top: 20px;
 }
